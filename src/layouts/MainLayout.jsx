@@ -28,11 +28,9 @@ function MainLayout() {
                 </span>
             </div>
 
-            {/* Cuerpo */}
             <div style={{ display: 'flex', flex: 1 }}>
 
-                {/* Drawer lateral */}
-                {drawerAbierto && (
+¡                {drawerAbierto && (
                     <div style={{
                         width: '180px',
                         backgroundColor: 'white',
@@ -47,7 +45,7 @@ function MainLayout() {
                             textDecoration: 'none',
                             color: '#333'
                         }}>
-                            <TvIcon /> Product
+                            <TvIcon /> produtcos
                         </Link>
                         <Link to="/usuarios" style={{
                             display: 'flex',
@@ -57,12 +55,11 @@ function MainLayout() {
                             textDecoration: 'none',
                             color: '#333'
                         }}>
-                            <PersonIcon /> Users
+                            <PersonIcon /> usuarios
                         </Link>
                     </div>
                 )}
 
-                {/* Contenido de la página */}
                 <div style={{ flex: 1, padding: '30px', overflowY: 'auto', fontSize: '14px' }}>
                     <Outlet />
                 </div>
