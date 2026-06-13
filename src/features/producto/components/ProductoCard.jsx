@@ -18,7 +18,7 @@ function ProductoCard({ producto }) {
             <img
                 src={producto.images[0]}
                 alt={producto.title}
-                style={{ width: '100%', height: '200px', objectFit: 'cover' }}
+                style={{ width: '100%', height: '140px', objectFit: 'cover' }}
                 onError={e => e.target.src = 'https://placehold.co/600x400'}
             />
             <div style={{ padding: '15px' }}>

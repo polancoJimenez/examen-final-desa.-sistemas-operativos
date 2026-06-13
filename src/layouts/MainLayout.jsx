@@ -1,4 +1,4 @@
-import { useState } from 'react'
+    import { useState } from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import TvIcon from '@mui/icons-material/Tv'
 import PersonIcon from '@mui/icons-material/Person'
@@ -34,7 +34,7 @@ function MainLayout() {
                 {/* Drawer lateral */}
                 {drawerAbierto && (
                     <div style={{
-                        width: '250px',
+                        width: '180px',
                         backgroundColor: 'white',
                         borderRight: '1px solid #e0e0e0',
                         padding: '20px 0'
@@ -63,7 +63,7 @@ function MainLayout() {
                 )}
 
                 {/* Contenido de la página */}
-                <div style={{ flex: 1, padding: '30px', overflowY: 'auto' }}>
+                <div style={{ flex: 1, padding: '30px', overflowY: 'auto', fontSize: '14px' }}>
                     <Outlet />
                 </div>
 
