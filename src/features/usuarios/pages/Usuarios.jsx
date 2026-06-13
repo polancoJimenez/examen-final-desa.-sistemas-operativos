@@ -20,7 +20,7 @@ function Usuarios() {
             <h2 style={{ marginBottom: '30px', fontWeight: 'normal' }}>Users Available</h2>
             <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(3, 1fr)',
+                gridTemplateColumns: 'repeat(4, 1fr)',
                 gap: '20px'
             }}>
                 {usuarios.map((usuario) => (

@@ -17,8 +17,8 @@ function UsuarioCard({ usuario }) {
                     e.target.src = `https://ui-avatars.com/api/?name=${usuario.name}&background=random`
                 }}
                 style={{
-                    width: '50px',
-                    height: '50px',
+                    width: '30px',
+                    height: '30px',
                     borderRadius: '50%',
                     objectFit: 'cover'
                 }}
